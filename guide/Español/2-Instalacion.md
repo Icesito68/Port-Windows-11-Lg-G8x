@@ -9,6 +9,8 @@
   
 - [Drivers](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Drivers)
 
+- [Mass storage boot image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/LGG8XMassStorageBoot.img)
+
 ### Reiniciar al modo de descarga
 - Mantén presionado **bajar volumen** + **encendido**.
 - Sigue manteniendo mientras muestra el aviso de bootloader desbloqueado.
