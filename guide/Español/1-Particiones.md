@@ -100,7 +100,6 @@ XXGB
 > Si recibes cualquier advertencia que te diga ignorar o cancelar, solo escribe i y dale a enter enter
 
 #### Para todos los modelos:
-
 - Crea la partición ESP (Aqui estará el bootloader de Windows y los archivos EFI)
 >Necesitamos que esta particion tenga 500MB, reemplaza XX con lo que diga "END" en Userdata
 ```sh
@@ -113,18 +112,18 @@ mkpart esp fat32 XXGB XX.5GB
 mkpart win ntfs XX.5GB 126GB
 ```
 
+#### Hacer que ESP sea arrancable
+> Use `print` para ver todas las particiones. Reemplace "$" con el número de partición ESP, que debería ser 31
+```cmd
+set $ esp on
+```
+
 ### Salir de parted
 ```sh
 quit
 ```
 
 ### Reiniciar a TWRP
-
-### Iniciar shell otra vez en tu PC
-```cmd
-adb shell
-```
-
 - Formatea data
 Ve a Wipe en TWRP y presiona Format Data, 
 después escribe `yes`.
