@@ -9,10 +9,6 @@
   
 - [Drivers](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Drivers)
 
-- [Parted](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/parted)
-
-- [TWRP u Orange Fox](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Recoveries)
-
 ### Reiniciar al modo de descarga
 - Mantén presionado **bajar volumen** + **encendido**.
 - Sigue manteniendo mientras muestra el aviso de bootloader desbloqueado.
@@ -87,25 +83,6 @@ assign letter y
 exit
 ```
 
-### Reiniciar al modo de recuperación
-> Reinicie en modo de recuperación. Reinstale el módulo de recuperación de Magisk si es necesario
-
-#### Ejecutar parted
-```cmd
-adb push parted /cache/ && adb shell "chmod 755 /cache/parted" && adb shell /cache/parted /dev/block/sda
-```
-
-#### Hacer que ESP sea arrancable
-> Use `print` para ver todas las particiones. Reemplace "$" con el número de partición ESP, que debería ser 31
-```cmd
-set $ esp on
-```
-
-#### Salir de parted
-```sh
-quit
-```
-
 ### Instalar Windows
 > Reemplace `<ruta\al\install.esd>` con la ruta real de install.esd (también puede llamarse install.wim)
 
@@ -113,7 +90,7 @@ dism /apply-image /ImageFile:<ruta\al\install.esd> /index:6 /ApplyDir:X:\
 
 > Si recibe `Error 87`, verifique el índice de su imagen con `dism /get-imageinfo /ImageFile:<ruta\al\install.esd>`, luego reemplace `index:6` con el número de índice real de Windows 11 Pro en su imagen
 
-#### Instalar controladores
+### Instalar controladores
 > Desempaque el archivo de controladores, luego abra el archivo `OfflineUpdater.cmd`
 
 > Ingrese la letra de unidad de `WINMH2LM`, que debería ser X, luego presione enter
