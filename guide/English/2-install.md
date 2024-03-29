@@ -89,25 +89,6 @@ assign letter y
 exit
 ```
 
-### Reboot to recovery
-> Reboot to recovery. Reinstall the Magisk recovery module if needed
-
-#### Running parted
-```cmd
-adb push parted /cache/ && adb shell "chmod 755 /cache/parted" && adb shell /cache/parted /dev/block/sda
-```
-
-#### Making ESP bootable
-> Use `print` to see all partitions. Replace "$" with your ESP partition number, which should be 31
-```cmd
-set $ esp on
-```
-
-#### Exit parted
-```sh
-quit
-```
-
 ### Installing Windows
 > Replace `<path\to\install.esd>` with the actual path of install.esd (it may also be named install.wim)
 
