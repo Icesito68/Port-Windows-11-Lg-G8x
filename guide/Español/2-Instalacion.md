@@ -7,7 +7,7 @@
 ### Requisitos previos
 - [Windows para ARM](https://worproject.com/esd)
   
-- [Drivers](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Drivers/mh2lm.drivers.zip)
+- [Drivers](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Drivers)
 
 - [Parted](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/parted)
 
