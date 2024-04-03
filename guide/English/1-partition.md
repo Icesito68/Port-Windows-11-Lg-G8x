@@ -41,7 +41,7 @@
 #### Reboot to download mode
 - Hold **volume down** + **power**.
 - Keep holding as it displays the unlocked bootloader warning.
-- After the screen turns dark, release the **power** button while continuing to hold the **volume up** button.
+- After the screen turns dark, release the **power** button while continuing to hold the **volume down** button.
 - While holding the **volume down** button, press the **volume up** button.
 
 #### Setting up Qfil
