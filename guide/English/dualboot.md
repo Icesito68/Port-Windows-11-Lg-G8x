@@ -7,7 +7,7 @@
 ### Prerequisites
 - [UEFI image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/UEFI)
   
-- [WOA Helper app](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Dualboot/woahelper.apk)
+- [WOA Helper app](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
   
 - [StA Installer](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Dualboot/StA_Installer_mh2lm.exe) 
 
