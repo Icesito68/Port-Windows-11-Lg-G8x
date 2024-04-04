@@ -7,7 +7,7 @@
 ### Prerequisites
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [Qfil](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Qfil) (to back up partitions)
+- [Qfil](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Qfil)
   
 - [Parted script](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/parted)
 
@@ -32,17 +32,9 @@
 #### Boot to EDL
 - Open **Device Manager** on your PC
 - With the phone turned off, hold **volume down** + **power**.
-- Keep holding as it displays the unlocked bootloader warning.
-- After the screen turns dark, release the **power** button while continuing to hold the **volume down** button.
-- While holding the **volume down** button, start rapidly pressing the **volume up** button.
+- After the screen turns dark, while still holding **volume down** + **power**, start rapidly pressing the **volume up** button.
 - Keep doing this until you see **QDLoader 9008** or **QUSB_BULK** in the Device Manager on your PC.
-- If the device has a ⚠️ yellow warning triangle, you need to install fastboot drivers before you can continue to the next step.
-
-#### Reboot to download mode
-- Hold **volume down** + **power**.
-- Keep holding as it displays the unlocked bootloader warning.
-- After the screen turns dark, release the **power** button while continuing to hold the **volume down** button.
-- While holding the **volume down** button, press the **volume up** button.
+- If the device is called **Android** and has a ⚠️ yellow warning triangle, you need to install fastboot drivers before you can continue to the next step.
 
 #### Setting up Qfil
 - Open **Qfil**.
@@ -53,7 +45,7 @@
 #### Backing up your partitions
 - In **Qfil**, select Tools > Partition manager, and click **Ok**.
 - Right click on **laf_a** > **Manage Partition Data** and press **Read Data**.
-- Do the same thing for **laf_b**, **boot_a**, **boot_b**, **abl_a**, **abl_b**, **aop_a**, **aop_b**, **xbl_a**, **xbl_b**, **ftc**, **fsg**, **fsc**, **modemst1**, **modemst2**, **modem_a**, **modem_b**
+- Do the same thing for **laf_b**, **boot_a**, **boot_b**, **abl_a**, **abl_b**, **aop_a**, **aop_b**, **xbl_a**, **xbl_b**, **fsg**, **fsc**, **modemst1**, **modemst2**, **modem_a**, **modem_b**
 
 > [!Important]
 > Navigate to `C:\users\name\AppData\roaming\qualcomm\qfil\comportno\` and rename the backed up partitions one by one as you back them up. Qfil does not name the backups, and if you don't rename them, it'll be impossible to figure out which files are which. You can restore them later with the **Load Image** function.
