@@ -11,11 +11,8 @@
 
 - [Mass storage boot image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/LGG8XMassStorageBoot.img)
 
-### Reboot to download mode
-- Hold **volume down** + **power**.
-- Keep holding as it displays the unlocked bootloader warning.
-- After the screen turns dark, release the **power** button while continuing to hold the **volume up** button.
-- While holding the **volume down** button, press the **volume up** button.
+#### Reboot to fastboot mode
+- With your phone turned off, hold the **volume down** button, then plug the cable back in.
 
 #### Setting up mass storage mode
 ```cmd
