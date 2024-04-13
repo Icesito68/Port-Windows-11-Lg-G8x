@@ -16,20 +16,24 @@ This project is in an early stage, all the files here have been contributed by o
 > [!Important]
 > This guide is for the LG G8x. Click the links here if you are looking for the [LG G8s](https://github.com/n00b69/woa-betalm) or the [LG G8](https://github.com/n00b69/woa-alphaplus) guides.
 
-## Get Started
-- [Project Status](guide/English/status.md)
- 
+## Get started
+- [Project status](guide/English/status.md)
+
 - [Installation instructions](guide/English/1-partition.md)
 
-- [Uninstall instructions](guide/English/uninstall.md)
+- [Troubleshooting](guide/English/troubleshooting.md)
 
 
 ## Miscellaneous
-- [Dualboot setup](/guide/English/dualboot.md)
+- [Dualboot setup](guide/English/dualboot.md)
 
-- [Driver updating instructions](guide/English/update.md)
+- [Additional materials](guide/English/materials.md)
 
-- [Extra](guide/English/extra.md)
+- [Update drivers](guide/English/update.md)
+
+- [Reinstall instructions](guide/English/reinstall.md)
+
+- [Uninstall instructions](guide/English/uninstall.md)
 
 ## Contributors
 [<img alt="MollySophia" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20746884?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/MollySophia)
