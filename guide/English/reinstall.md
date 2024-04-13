@@ -17,7 +17,7 @@
 - If the phone in device manager is called **Android** and has a ⚠️ yellow warning triangle, you need to install fastboot drivers before you can continue.
 
 #### Boot to the UEFI
-> Replace **<path\to\mh2lm-msc.img>** with the actual path of the UEFI image
+> Replace **<path\to\mh2lm-uefi.img>** with the actual path of the UEFI image
 ```cmd
 fastboot boot <path\to\mh2lm-uefi.img>
 ```
