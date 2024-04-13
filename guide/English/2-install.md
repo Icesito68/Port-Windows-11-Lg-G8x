@@ -9,16 +9,23 @@
   
 - [Drivers](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Drivers)
 
-- [Mass storage boot image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/LGG8XMassStorageBoot.img)
+- [UEFI image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/UEFI)
 
-#### Reboot to fastboot mode
+### Reboot to fastboot mode
 - With your phone turned off, hold the **volume down** button, then plug the cable back in.
 - If the phone in device manager is called **Android** and has a ⚠️ yellow warning triangle, you need to install fastboot drivers before you can continue.
 
-#### Setting up mass storage mode
+#### Boot to the UEFI
+> Replace **<path\to\mh2lm-uefi.img>** with the actual path of the UEFI image
 ```cmd
-fastboot boot LGG8XMassStorageBoot.img
+fastboot boot <path\to\mh2lm-uefi.img>
 ```
+
+#### Enabling mass storage mode
+> Once booted into the UEFI, use the volume buttons to navigate the menu and the power button to confirm
+- Select **UEFI Boot Menu**.
+- Select **USB Attached SCSI (UAS) Storage**.
+- Press the **power** button twice to confirm.
 
 ### Diskpart
 > [!WARNING]
