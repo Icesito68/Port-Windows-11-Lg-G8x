@@ -13,6 +13,7 @@
 
 #### Reboot to fastboot mode
 - With your phone turned off, hold the **volume down** button, then plug the cable back in.
+- If the phone in device manager is called **Android** and has a ⚠️ yellow warning triangle, you need to install fastboot drivers before you can continue.
 
 #### Setting up mass storage mode
 ```cmd
