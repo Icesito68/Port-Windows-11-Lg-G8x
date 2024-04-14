@@ -35,6 +35,8 @@ diskpart
 
 #### Finding your phone
 > This will list all connected disks
+>
+> Look for your phone (which should be the last disk which will be 117GB in size). If you do not see it, wait a few seconds and run the command again. Repeat this until you see the disk.
 ```cmd
 lis dis
 ```
