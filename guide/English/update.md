@@ -11,7 +11,7 @@
 > Flash the UEFI image in fastboot or use the WOA Helper app
 
 ### Installing Drivers
-> Unpack the driver archive on mh2lm, then open the `OnlineUpdater.cmd` file
+> Unpack the driver archive on your LG while in Windows, then open the `OnlineUpdater.cmd` file
 
 > Follow any instructions provided on the screen
 
