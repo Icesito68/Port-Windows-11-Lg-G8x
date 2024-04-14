@@ -91,25 +91,25 @@ rm $
 #### Recreating userdata
 > Replace **19GB** with the former start value of **userdata** which we just deleted
 >
-> Replace **40GB** with the end value you want **userdata** to have
+> Replace **60GB** with the end value you want **userdata** to have
 ```cmd
-mkpart userdata ext4 19GB 40GB
+mkpart userdata ext4 19GB 60GB
 ```
 
 #### Creating ESP partition
-> Replace **40GB** with the end value of **userdata**
+> Replace **60GB** with the end value of **userdata**
 >
-> Replace **40.1GB** with the value you used before, adding **0.1GB** to it
+> Replace **60.1GB** with the value you used before, adding **0.1GB** to it
 ```cmd
-mkpart esp fat32 40GB 40.1GB
+mkpart esp fat32 60GB 60.1GB
 ```
 
 #### Creating Windows partition
-> Replace **40.1GB** with the end value of **esp**
+> Replace **60.1GB** with the end value of **esp**
 >
 > Replace **126GB** with the end value of your disk, use `p free` to find it
 ```cmd
-mkpart win ntfs 40.1GB 126GB
+mkpart win ntfs 60.1GB 126GB
 ```
 
 #### Making ESP bootable
