@@ -99,17 +99,17 @@ mkpart userdata ext4 19GB 40GB
 #### Creating ESP partition
 > Replace **40GB** with the end value of **userdata**
 >
-> Replace **40.5GB** with the value you used before, adding **0.5GB** to it
+> Replace **40.1GB** with the value you used before, adding **0.1GB** to it
 ```cmd
-mkpart esp fat32 40GB 40.5GB
+mkpart esp fat32 40GB 40.1GB
 ```
 
 #### Creating Windows partition
-> Replace **40.5GB** with the end value of **esp**
+> Replace **40.1GB** with the end value of **esp**
 >
 > Replace **126GB** with the end value of your disk, use `p free` to find it
 ```cmd
-mkpart win ntfs 40.5GB 126GB
+mkpart win ntfs 40.1GB 126GB
 ```
 
 #### Making ESP bootable
