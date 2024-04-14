@@ -42,7 +42,7 @@ lis dis
 ```
 
 #### Selecting your phone
-> Replace $ with the actual number of your phone (it should be the last one)
+> Replace $ with the actual number of your phone
 ```cmd
 sel dis $
 ```
