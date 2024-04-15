@@ -9,16 +9,16 @@
   
 - [Drivers](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/Drivers)
 
-- [UEFI image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/tag/UEFI)
+- [Mass storage image](https://github.com/Icesito68/Port-Windows-11-Lge-devices/releases/download/Files/msc.img)
 
 ### Reboot to fastboot mode
 - With your phone turned off, hold the **volume down** button, then plug the cable back in.
 - If the phone in device manager is called **Android** and has a ⚠️ yellow warning triangle, you need to install fastboot drivers before you can continue.
 
-#### Boot to the UEFI
-> Replace **<path\to\mh2lm-uefi.img>** with the actual path of the UEFI image
+#### Boot to the mass storage UEFI
+> Replace **<path\to\msc.img>** with the actual path of the UEFI image
 ```cmd
-fastboot boot <path\to\mh2lm-uefi.img>
+fastboot boot <path\to\msc.img>
 ```
 
 #### Enabling mass storage mode
