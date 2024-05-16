@@ -48,9 +48,9 @@
 - Do the same thing for **laf_b**, **boot_a**, **boot_b**, **abl_a**, **abl_b**, **aop_a**, **aop_b**, **xbl_a**, **xbl_b**, **fsg**, **fsc**, **modemst1**, **modemst2**, **modem_a**, **modem_b**
 
 > [!Important]
-> Navigate to `C:\users\name\AppData\roaming\qualcomm\qfil\comportno\` and rename the backed up partitions one by one as you back them up. Qfil does not name the backups, and if you don't rename them, it'll be impossible to figure out which files are which. You can restore them later with the **Load Image** function.
+> Navigate to `C:\Users\YOURNAME\AppData\Roaming\Qualcomm\QFIL\COMPORT_#\` and rename the backed up partitions one by one as you back them up. Qfil does not name the backups, and if you don't rename them, it'll be impossible to figure out which files are which. You can restore them later with the **Load Image** function.
 
-#### Flashing engineering ABL
+### Flashing engineering ABL
 > Or you can't use fastboot
 - In **Qfil**, select Tools > Partition manager, and click **Ok**.
 - Right click on **abl_a** > **Manage Partition Data** and press **Load Image**.
