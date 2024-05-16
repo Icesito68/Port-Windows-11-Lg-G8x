@@ -127,6 +127,7 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" nointegritychecks on
 ```
 
 ### Reboot to EDL
+> If you didn't flash the engineering ABL on the previous page, you can skip this step and simply reboot your device
 - Open **Device Manager** on your PC
 - With the phone turned off, hold **volume down** + **power**.
 - Keep holding as it displays the unlocked bootloader warning.
@@ -138,7 +139,7 @@ bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" nointegritychecks on
 > Or your IMEI won't work
 - In **Qfil**, select Tools > Partition manager, and click **Ok**.
 - Right click on **abl_a** > **Manage Partition Data** and press **Load Image**.
-- Select and flash the **abl_a** file in `C:\users\name\AppData\roaming\qualcomm\qfil\comportno\`
+- Select and flash the **abl_a** file in `C:\Users\YOURNAME\AppData\Roaming\Qualcomm\QFIL\COMPORT_#\`
 - Do the same thing for **abl_b**.
 
 #### Reboot back to Android
