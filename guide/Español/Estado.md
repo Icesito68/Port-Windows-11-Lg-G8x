@@ -22,7 +22,7 @@ Beta. La mayoría del hardware funciona, pero aún quedan cosas
 - [ ] FM
 - [x] GPU
 - [ ] LTE
-- [ ] SD ```Muy inestable```
+- [x] SD
 - [x] Pantalla Táctil
 - [x] UFS
 - [x] USB ```Si intentas cargar el móvil dejará de funcionar```
